@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Lush Tresses</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">LUSH<span>TRESSES</span></a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Collection</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" style="padding-bottom: 0;">
+      <h1>Get in Touch</h1>
+      <p>Have questions about custom lengths, wig care, or orders? Chat with us directly on WhatsApp or send a message below.</p>
+    </section>
+
+    <div style="margin-top: 1.5rem;">
+      <a href="https://wa.me/26773376976?text=Hi,%20I%20have%20an%20inquiry%20about%20your%20wigs." target="_blank" class="btn" style="background-color: #25D366; color: #121212; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; font-weight: 700;">
+        Chat on WhatsApp
+      </a>
+    </div>
+
+    <form action="#" method="POST" style="margin-top: 3rem;">
+      <h3 style="font-size: 1.25rem; margin-bottom: -0.5rem;">Or send an email inquiry</h3>
+      <div>
+        <label for="name" style="display:block; margin-bottom: 0.5rem; color: var(--text-muted);">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name">
+      </div>
+      <div>
+        <label for="email" style="display:block; margin-bottom: 0.5rem; color: var(--text-muted);">Email</label>
+        <input type="email" id="email" name="email" required placeholder="name@example.com">
+      </div>
+      <div>
+        <label for="message" style="display:block; margin-bottom: 0.5rem; color: var(--text-muted);">Message</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Inquire about a unit or custom order..."></textarea>
+      </div>
+      <button type="submit" class="btn" style="cursor: pointer; border: none;">Send Message</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lush Tresses. All rights reserved.</p>
+  </footer>
+</body>
+</html>
